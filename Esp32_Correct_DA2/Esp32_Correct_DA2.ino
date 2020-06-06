@@ -1,11 +1,4 @@
-// (C) 2019 Helmut Weber
-//
-// Build a LookUpTable for ESP32-ADC to get corrected values
-
-
-// Uncomment to get Text for including in programm:
-//#define GRAPH
-
+#define GRAPH
 
 #include <driver/dac.h>
 
