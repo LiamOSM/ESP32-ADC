@@ -1,4 +1,4 @@
-#define GRAPH
+//#define GRAPH
 
 #include <driver/dac.h>
 
@@ -25,7 +25,7 @@ void setup() {
     adcAttachPin(35);
     adcStart(35);
 
-    Serial.begin(921600);
+    Serial.begin(9600);
 
    
 }
